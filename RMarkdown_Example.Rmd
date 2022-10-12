@@ -75,7 +75,7 @@ On average, animals spent `r mean(shelter$Days.to.Adoption)` days before being a
 ```{r}
 # Make a histogram of days to adopt variable
 library(ggplot2)
-ggplot(shelter, aes(x=Days.to.Adoption)) +  geom_histogram(binwidth=10, col='black', fill='maroon') + xlab('Number of Days to Adoption') + ggtitle('Distribution of Days to Adoption') + theme_classic()
+ggplot(shelter, aes(x=Days.to.Adoption)) +  geom_histogram(binwidth=10, col='black', fill='green') + xlab('Number of Days to Adoption') + ggtitle('Distribution of Days to Adoption') + theme_classic()
 ```
 
 ---------
