@@ -64,7 +64,7 @@ mean(shelter$Days.to.Adoption)
 You can also suppress the output:
 
 ```{r results='hide'}
-mean(shelter$Days.to.Adoption)
+median(shelter$Days.to.Adoption)
 ```
 
 
